@@ -33,7 +33,7 @@ var getMd5 = function (str)
 };
 
 var secretKey = '4wt34g54yu46';
-var requestUrl = 'http://anyapi.mobile.youxigongchang.com/foreign/oauth/verification2.php';
+var requestUrl = 'http://z.kuaifazs.com/foreign/oauth/verification2.php';
 
 var urlData = url.parse(requestUrl);
 console.log(urlData);
