@@ -33,7 +33,7 @@ import com.haojieru.utilDemo.SecurityUtil;
 */
 public class LoginVerify {
 	private static final String security_key = "abcdef";
-	private static final String url = "http://anyapi.mobile.youxigongchang.com/foreign/oauth/verification2.php";
+	private static final String url = "http://z.kuaifazs.com/foreign/oauth/verification2.php";
 	
 	
 	public static void loginCheck() throws UnsupportedEncodingException {
