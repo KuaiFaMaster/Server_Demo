@@ -11,7 +11,7 @@ $params = array(
 );
 $params['_sign'] = Util::makeSign($params, $secretKey);
 
-$url = 'http://anyapi.mobile.youxigongchang.com/foreign/oauth/verification2.php';
+$url = 'http://z.kuaifazs.com/foreign/oauth/verification2.php';
 
 $retval = Util::request($url, $params, 'POST');
 $result = (array) json_decode($retval, true);
